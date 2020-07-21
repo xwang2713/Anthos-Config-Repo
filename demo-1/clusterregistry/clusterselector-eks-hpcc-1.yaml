@@ -1,0 +1,9 @@
+kind: ClusterSelector
+apiVersion: configmanagement.gke.io/v1
+metadata:
+  name: selector-env-eks-hpcc-1
+spec:
+  selector:
+    matchLabels:
+      env: arn:aws:eks:us-east-1:446598291512:cluster/hpcc-1
+      lifecycle: prod
