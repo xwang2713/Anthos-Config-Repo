@@ -1,0 +1,7 @@
+apiVersion: clusterregistry.k8s.io/v1alpha1
+kind: Cluster
+metadata:
+  name: gke-hpcc-1
+  labels:
+    env: gke-hpcc-1
+    lifecycle: prod
