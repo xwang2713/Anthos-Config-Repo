@@ -5,5 +5,5 @@ metadata:
 spec:
   selector:
     matchLabels:
-      env: arn:aws:eks:us-east-1:446598291512:cluster/hpcc-1
+      env: eks-hpcc-1
       lifecycle: prod
