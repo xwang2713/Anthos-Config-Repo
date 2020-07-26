@@ -1,9 +1,9 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  name: selector-env-eks-hpcc-1
+  name: selector-env-aks-myhpcc-admin
 spec:
   selector:
     matchLabels:
-      env: eks-hpcc-1
+      env: aks-myhpcc-admin
       lifecycle: prod

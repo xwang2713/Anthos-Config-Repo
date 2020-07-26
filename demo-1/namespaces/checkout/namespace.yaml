@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: checkout
   annotations:
-    configmanagement.gke.io/cluster-selector: selector-env-eks-hpcc-1
+    configmanagement.gke.io/cluster-selector: selector-env-aks-myhpcc-admin
