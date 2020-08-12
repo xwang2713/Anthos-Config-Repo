@@ -4,6 +4,7 @@ metadata:
   name: nginx
   labels:
     app: nginx-sample
+    project: hpccsystems
 spec:
   containers:
   - name: nginx
